@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewpager_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/imageviewpager"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/viewpager1" />
+
+    <TextView
+        android:id="@+id/text_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageviewpager"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20sp"
+        android:fontFamily="@font/font1"
+        android:gravity="center_horizontal"
+        android:text="Judul"
+        android:textColor="@color/Biru1"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_below="@+id/text_judul"
+        android:id="@+id/text_desc"
+        android:layout_width="370sp"
+        android:layout_height="wrap_content"
+        android:text="Judul"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/Biru2"
+        android:fontFamily="@font/font1"
+        android:textSize="19dp"
+        android:gravity="center_horizontal"
+        />
+
+</RelativeLayout>

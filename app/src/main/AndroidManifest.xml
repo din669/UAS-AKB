@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tubesakb">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TubesAKB">
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyBY3O4-gmqLvlsQhzZWpUT_6LGgC8WIVKE" />
+
+    <activity android:name=".view.DetailAlamActivity"></activity>
+    <activity android:name=".view.DetailListAlamActivity" />
+    <activity android:name=".view.DetailRekreasiActivity"></activity>
+    <activity android:name=".view.DetailListRekreasiActivity" />
+    <activity android:name=".view.DetailKulinerActivity"></activity>
+    <activity android:name=".view.DetailListKulinerActivity" />
+    <activity android:name=".view.DetailBelanjaActivity"></activity>
+    <activity android:name=".view.DetailListBelanjaActivity" />
+    <activity android:name=".view.MainActivity" />
+    <activity android:name=".view.SplashScreen"
+              android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".view.Viewpager" />
+    </application>
+
+</manifest>
