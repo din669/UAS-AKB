@@ -3,6 +3,7 @@
     package="com.example.tubesakb">
 
     <application
+        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -13,7 +14,7 @@
         android:theme="@style/Theme.TubesAKB">
     <meta-data
         android:name="com.google.android.geo.API_KEY"
-        android:value="AIzaSyBY3O4-gmqLvlsQhzZWpUT_6LGgC8WIVKE" />
+        android:value="AIzaSyCIeh2vGoznoTTIZN2AWodV3nrTUnkxYtg" />
 
     <activity android:name=".view.DetailAlamActivity"></activity>
     <activity android:name=".view.DetailListAlamActivity" />

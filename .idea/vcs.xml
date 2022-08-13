@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/10118327_UAS_AKB" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/10118327_UTS_AKB" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/10118327_tugas1" vcs="Git" />

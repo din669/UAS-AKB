@@ -11,13 +11,38 @@
      android:layout_height="wrap_content"
      android:layout_marginStart="25dp"
      android:layout_marginTop="30dp"
+     android:layout_marginBottom="20sp"
      android:fontFamily="@font/cooper"
-     android:layout_marginBottom="30sp"
      android:text="Selamat Datang di Jelajah Bandung"
      android:textColor="@color/Biru1"
      android:textSize="35dp" />
+
+ <TextView
+     android:id="@+id/weather_today"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginStart="25dp"
+     android:layout_marginEnd="25dp"
+     android:layout_below="@id/main_txt_greet_beranda"
+     android:fontFamily="@font/cooper"
+     android:text="Buat kamu yang mau main ke Bandung\ncuaca Bandung hari ini "
+     android:textColor="@color/Biru1"
+     android:textSize="24sp" />
+
+ <TextView
+     android:id="@+id/weather_txt"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginStart="25dp"
+     android:layout_below="@id/weather_today"
+     android:fontFamily="@font/cooper"
+     android:text="-/-"
+     android:layout_marginBottom="20sp"
+     android:textColor="@color/Biru1"
+     android:textSize="24sp" />
+
  <androidx.cardview.widget.CardView
-     android:layout_below="@+id/main_txt_greet_beranda"
+     android:layout_below="@+id/weather_txt"
      android:id="@+id/cv1"
      android:layout_width="380sp"
      android:layout_centerHorizontal="true"
@@ -149,13 +174,13 @@
        android:textSize="12sp" />
   </RelativeLayout>
  </androidx.cardview.widget.CardView>
- <ImageView
-     android:layout_marginTop="30sp"
-     android:layout_centerInParent="true"
-     android:layout_width="210sp"
-     android:layout_height="190sp"
-     android:layout_below="@id/cv3"
-     android:src="@drawable/adventure"
-     />
+
+<!-- <ImageView-->
+<!--     android:layout_width="210sp"-->
+<!--     android:layout_height="190sp"-->
+<!--     android:layout_below="@id/cv3"-->
+<!--     android:layout_centerInParent="true"-->
+<!--     android:layout_marginTop="30sp"-->
+<!--     android:src="@drawable/adventure" />-->
 
 </RelativeLayout>

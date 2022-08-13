@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "384990500038",
+    "firebase_url": "https://tubesakb-382b1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tubesakb-382b1",
+    "storage_bucket": "tubesakb-382b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384990500038:android:f11379fea22e49c496f3c7",
+        "android_client_info": {
+          "package_name": "com.example.tubesakb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384990500038-umqj87hkrm8bct1pqmmr67hgbljl4nic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSaMUNdJNq4cKll8Z1rwhFVZlgtFteXQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384990500038-umqj87hkrm8bct1pqmmr67hgbljl4nic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
