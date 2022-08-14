@@ -14,29 +14,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_nav);
         getSupportFragmentManager()
                 .beginTransaction()
-                .replace(R.id.fragment_container,new BerandaFragment()).commit();
-        bottomNavigationView
-                .setOnNavigationItemSelectedListener(item -> {
-                    Fragment selectedFragment = null;
-
-                    switch (item.getItemId()){
-                        case R.id.nav_account:
-                            selectedFragment = new BerandaFragment();
-                            break;
-                        case R.id.nav_home:
-                            selectedFragment = new HomeFragment();
-                            break;
-
-
-                    }
-                    getSupportFragmentManager()
-                            .beginTransaction()
-                            .replace(R.id.fragment_container,selectedFragment).commit();
-
-                    return true;
-                });
+                .replace(R.id.fragment_container,new HomeFragment()).commit();
     }
 }

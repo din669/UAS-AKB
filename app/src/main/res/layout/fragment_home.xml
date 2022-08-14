@@ -7,11 +7,34 @@
     android:orientation="vertical"
     tools:context=".view.HomeFragment">
 
+    <TextView
+        android:id="@+id/weather_today"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginEnd="25sp"
+        android:fontFamily="@font/cooper"
+        android:text="Bandung hari ini "
+        android:textColor="@color/Biru1"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/weather_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weather_today"
+        android:layout_marginStart="25sp"
+        android:layout_marginBottom="20sp"
+        android:text="-/-"
+        android:textColor="@color/Biru1"
+        android:textSize="16sp" />
+
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/view_main_banner"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginTop="120dp"
+        android:layout_height="200sp"
+        android:layout_marginTop="120sp"
         android:background="@color/Biru1" />
 
     <TextView
@@ -19,30 +42,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/view_main_banner"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="30sp"
         android:fontFamily="@font/cooper"
         android:text="Hai Kamu,"
         android:textColor="@color/Biru1"
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/main_text_greeting2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/main_text_greeting"
-        android:layout_marginStart="25dp"
+        android:layout_marginStart="25sp"
         android:fontFamily="@font/cooper"
         android:text="Mau kemana hari ini?"
         android:textColor="@color/Biru1"
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/main_btn_kota"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/main_text_greeting2"
-        android:layout_marginHorizontal="20dp"
+        android:layout_marginHorizontal="20sp"
         android:backgroundTint="@color/Biru2"
         android:drawableLeft="@drawable/ic_location"
         android:drawableRight="@drawable/ic_down"
@@ -54,36 +77,36 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/main_btn_kota"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="8sp"
         android:fontFamily="@font/cooper"
         android:text="Objek Wisata"
         android:textColor="@color/Biru1"
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/main_alam"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
         android:layout_below="@+id/main_btn_kota"
-        android:layout_marginHorizontal="90dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="20dp"
-        app:cardCornerRadius="10dp"
-        app:cardElevation="2dp">
+        android:layout_marginHorizontal="90sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginBottom="20sp"
+        app:cardCornerRadius="10sp"
+        app:cardElevation="2sp">
 
         <RelativeLayout
             android:id="@+id/card_alam"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/white"
-            android:padding="5dp">
+            android:padding="5sp">
 
             <ImageView
                 android:id="@+id/gambar_alam"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_marginStart="15dp"
+                android:layout_width="60sp"
+                android:layout_height="60sp"
+                android:layout_marginStart="15sp"
                 android:layout_marginBottom="5sp"
                 android:src="@drawable/ic_undraw_nature" />
 
@@ -92,41 +115,41 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/gambar_alam"
                 android:layout_centerInParent="true"
-                android:layout_marginBottom="40dp"
+                android:layout_marginBottom="40sp"
                 android:fontFamily="@font/centaur"
                 android:text="Alam"
                 android:textColor="@color/Biru1"
-                android:textSize="12dp" />
+                android:textSize="12sp" />
         </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/main_rekreasi"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
         android:layout_below="@+id/main_btn_kota"
         android:layout_alignParentEnd="true"
-        android:layout_marginHorizontal="90dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="90sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginBottom="20sp"
         android:backgroundTint="@color/white"
-        app:cardCornerRadius="10dp"
-        app:cardElevation="2dp">
+        app:cardCornerRadius="10sp"
+        app:cardElevation="2sp">
 
         <RelativeLayout
             android:id="@+id/card_rekreasi"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/white"
-            android:padding="5dp">
+            android:padding="5sp">
 
             <ImageView
                 android:id="@+id/gambar_rekreasi"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="60sp"
+                android:layout_height="60sp"
                 android:layout_marginBottom="5sp"
-                android:layout_marginStart="15dp"
+                android:layout_marginStart="15sp"
                 android:src="@drawable/ic_undraw_friendship" />
 
             <TextView
@@ -134,39 +157,39 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/gambar_rekreasi"
                 android:layout_centerInParent="true"
-                android:layout_marginBottom="40dp"
+                android:layout_marginBottom="40sp"
                 android:fontFamily="@font/centaur"
                 android:text="Tempat Rekreasi"
                 android:textColor="@color/Biru1"
-                android:textSize="12dp" />
+                android:textSize="12sp" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_dilev"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
         android:layout_below="@+id/main_alam"
-        android:layout_marginHorizontal="90dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="90sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="20sp"
         android:backgroundTint="@color/white"
-        app:cardCornerRadius="10dp"
-        app:cardElevation="2dp">
+        app:cardCornerRadius="10sp"
+        app:cardElevation="2sp">
 
         <RelativeLayout
             android:id="@+id/card_kuliner"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/white"
-            android:padding="5dp">
+            android:padding="5sp">
 
             <ImageView
                 android:id="@+id/gambar_kuliner"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="60sp"
+                android:layout_height="60sp"
                 android:layout_marginBottom="5sp"
-                android:layout_marginStart="15dp"
+                android:layout_marginStart="15sp"
                 android:src="@drawable/ic_undraw_food" />
 
             <TextView
@@ -174,39 +197,39 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/gambar_kuliner"
                 android:layout_centerInParent="true"
-                android:layout_marginBottom="40dp"
+                android:layout_marginBottom="40sp"
                 android:fontFamily="@font/centaur"
                 android:text="Kuliner"
                 android:textColor="@color/Biru1"
-                android:textSize="12dp" />
+                android:textSize="12sp" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_pesanan"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
         android:layout_below="@+id/main_rekreasi"
         android:layout_alignParentEnd="true"
-        android:layout_marginHorizontal="90dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="90sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="20sp"
         android:backgroundTint="@color/white"
-        app:cardCornerRadius="10dp"
-        app:cardElevation="2dp">
+        app:cardCornerRadius="10sp"
+        app:cardElevation="2sp">
 
         <RelativeLayout
             android:id="@+id/card_belanja"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/white"
-            android:padding="5dp">
+            android:padding="5sp">
 
             <ImageView
                 android:id="@+id/gambar_belanja"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_marginStart="15dp"
+                android:layout_width="60sp"
+                android:layout_height="60sp"
+                android:layout_marginStart="15sp"
                 android:layout_marginBottom="5sp"
                 android:src="@drawable/ic_undraw_shopping" />
 
@@ -215,11 +238,11 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/gambar_belanja"
                 android:layout_centerInParent="true"
-                android:layout_marginBottom="40dp"
+                android:layout_marginBottom="40sp"
                 android:fontFamily="@font/centaur"
                 android:text="Tempat Belanja"
                 android:textColor="@color/Biru1"
-                android:textSize="12dp" />
+                android:textSize="12sp" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 

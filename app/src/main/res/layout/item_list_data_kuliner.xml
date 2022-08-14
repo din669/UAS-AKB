@@ -3,15 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="140sp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:paddingHorizontal="15dp"
+    android:paddingHorizontal="15sp"
     android:paddingVertical="2dp"
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="1dp"
-        android:padding="8dp"
+        android:layout_margin="1sp"
+        android:padding="8sp"
         app:cardCornerRadius="12sp">
 
         <RelativeLayout
@@ -19,8 +19,8 @@
             android:layout_height="match_parent">
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/img_data_kuliner"
-                android:layout_width="140dp"
-                android:layout_height="110dp"
+                android:layout_width="140sp"
+                android:layout_height="110sp"
                 android:layout_marginStart="15sp"
                 android:layout_marginTop="15sp"
                 android:layout_marginBottom="15sp"

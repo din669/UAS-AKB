@@ -1,12 +1,15 @@
 package com.example.tubesakb.view;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -14,6 +17,8 @@ import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
 import com.example.tubesakb.R;
+import com.example.tubesakb.model.WeatherResponse;
+import com.example.tubesakb.presenter.WeatherImpl;
 import com.example.tubesakb.view.adapter.CarouselAdapter;
 
 import java.util.Timer;
@@ -29,12 +34,17 @@ public class HomeFragment extends Fragment {
     private ViewPager screenPager;
     private CarouselAdapter adapter;
     private BottomSheetFragment bottomSheet = new BottomSheetFragment();
+
+    WeatherImpl weatherImpl;
+    TextView weatherText;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        weatherImpl = new WeatherImpl();
+        weatherImpl.getWeather("bandung");
         return inflater.inflate(R.layout.fragment_home, container, false);
-
     }
 
     @Override
@@ -102,6 +112,19 @@ public class HomeFragment extends Fragment {
             Intent intent = new Intent(requireContext(), DetailListBelanjaActivity.class);
             intent.putExtra("extra_kota", buttonkota.getText());
             startActivity(intent);
+        });
+
+        weatherText = view.findViewById(R.id.weather_txt);
+        weatherImpl.setWeatherListener(new WeatherImpl.WeatherListener() {
+            @SuppressLint("SetTextI18n")
+            @Override
+            public void onSuccess(WeatherResponse result) {
+                weatherText.setText(result.getCurrent().getCondition().getText() +" "+result.getCurrent().getTempC() +"\u2103");
+            }
+            @Override
+            public void onFailed(String errorMessage) {
+                Log.d("Info Log", "onFailed: " + errorMessage);
+            }
         });
     }
 

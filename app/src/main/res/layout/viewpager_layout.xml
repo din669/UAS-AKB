@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/imageviewpager"
-        android:layout_width="240dp"
-        android:layout_height="240dp"
+        android:layout_width="240sp"
+        android:layout_height="240sp"
         android:layout_centerInParent="true"
         android:src="@drawable/viewpager1" />
 

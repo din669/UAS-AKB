@@ -10,10 +10,31 @@
         <entry key="..\:/Users/SINSERA/AndroidStudioProjects/app/src/main/res/menu/bottom_nav.xml" value="0.2" />
         <entry key="..\:/Users/SINSERA/AndroidStudioProjects/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1945" />
         <entry key="..\:/Users/SINSERA/AndroidStudioProjects/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1945" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/activity_detail.xml" value="0.2" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/activity_detail2.xml" value="0.2" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/activity_detail3.xml" value="0.2" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/activity_detail4.xml" value="0.2" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/activity_detail_alam.xml" value="0.2" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/activity_detail_belanja.xml" value="0.2" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/activity_detail_kuliner.xml" value="0.2" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/activity_detail_rekreasi.xml" value="0.2" />
         <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/activity_main.xml" value="0.134375" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
         <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/activity_viewpager.xml" value="0.134375" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/banner_layout.xml" value="0.2" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/belanja_layout.xml" value="0.2" />
         <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/fragment_beranda.xml" value="0.22" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/fragment_bottom_sheet.xml" value="0.2" />
         <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/item_list_data_alam.xml" value="0.2" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/item_list_data_belanja.xml" value="0.2" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/item_list_data_kuliner.xml" value="0.2" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/item_list_data_rekreasi.xml" value="0.2" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/item_list_kota.xml" value="0.2" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/kuliner_layout.xml" value="0.2" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/rekreasi_layout.xml" value="0.2" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/layout/viewpager_layout.xml" value="0.2" />
+        <entry key="..\:/Users/SINSERA/AndroidStudioProjects/tubesAKB/app/src/main/res/menu/bottom_nav.xml" value="0.2" />
       </map>
     </option>
   </component>
